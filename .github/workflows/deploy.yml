@@ -7,9 +7,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      MODEL_NAME: adult-income-classifier-carlosTM
+      MODEL_NAME: adult-income-classifier-carlostm
       MODEL_ALIAS: champion
-      AZURE_CONTAINER_NAME: model-api-carlosTM
+      AZURE_CONTAINER_NAME: model-api-carlostm
       IMAGE_NAME: model-api-carlosTM
       AZURE_REGION: eastus
     steps:
