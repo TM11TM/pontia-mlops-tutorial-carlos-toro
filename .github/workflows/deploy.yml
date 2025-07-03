@@ -10,7 +10,7 @@ jobs:
       MODEL_NAME: adult-income-classifier-carlostm
       MODEL_ALIAS: champion
       AZURE_CONTAINER_NAME: model-api-carlostm
-      IMAGE_NAME: model-api-carlosTM
+      IMAGE_NAME: model-api-carlostm
       AZURE_REGION: eastus
     steps:
       - name: Checkout repository
