@@ -27,18 +27,20 @@
 - Construye la imagen Docker y la sube a Azure
 
 
-# 🗂️ Estructura del Proyecto
+## 🗂️ Estructura del Proyecto
 
+```text
 📁 .github/          # Workflows de GitHub Actions 
-📁 data/             # Se almacena la informacion del modelo
+📁 data/             # Se almacena la información del modelo
 📁 deployment/       # Contiene la app y el Dockerfile
-📁 model_test/       # modelos de test     
+📁 model_test/       # Modelos de test     
 📁 models/           # Otros modelos
-📁 scripts/  
-📁 src/  
+📁 scripts/          # Scripts auxiliares
+📁 src/              # Código fuente principal
 📁 unit_test/        # Test unitarios
-📄 README.md
-📄 requirements.txt   # Dependencias
+📄 README.md         # Documentación principal
+📄 requirements.txt  # Dependencias del proyecto
+````
 
 
 # ▶️ Uso
