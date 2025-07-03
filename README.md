@@ -48,5 +48,5 @@
 #### 2. Desde la terminal instalamos todas las dependencias 
         `pip install - r requirements.txt`
 #### 3. Ejecuta el modelo desde main.py
-#### 4. Ejecuta las pruebas
+#### 4. Ejecuta las pruebas unitarias
 #### 5. Comprobar en el navegador el correcto despliegue de la API
